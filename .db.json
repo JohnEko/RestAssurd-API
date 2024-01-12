@@ -1,0 +1,69 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Kafka-Developer",
+      "author": "James"
+    },
+    {
+      "id": 2,
+      "title": "Python test engineer",
+      "author": "Dom"
+    },
+
+    {
+      "id": 3,
+      "title": "Java developer",
+      "author": "Ashini"
+    },
+    {
+      "id": 4,
+      "title": "cyber Security Analyts",
+      "author": "Zen"
+    },
+    {
+      "id": 5,
+      "title": "Data Engineering",
+      "author": "Tony"
+    },
+    {
+      "id": "6",
+      "title": "Server Admin",
+      "author": "David"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "Wonderful course content",
+      "postID": 1
+    }
+  ],
+  "profile": {
+    "name": "Bada"
+  },
+  "address": {
+    "Secondary": [
+      {
+        "City": "Magodo GRA",
+        "State": "Lagos",
+        "Country": "Nigeria",
+        "PostCode": 23401
+      }
+    ],
+    "primary": [
+      {
+        "City": "Pori",
+        "State": "Satakunta",
+        "Country": "Finland",
+        "PostCode": 1234
+      },
+      {
+        "City": "London",
+        "State": "London",
+        "Country": "United Kingdom",
+        "PostCode": 12065
+      }
+    ]
+  }
+}
