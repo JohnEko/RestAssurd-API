@@ -33,16 +33,9 @@ public class Main {
        }
        return null;
     }
-    public ResponseOptions<Response> PostOperationWithBodyAndPathParameters(String url, Map<String, String> patthParams, Map<String, String> body) throws URISyntaxException {
-        Request.pathParams(patthParams);
+    public static ResponseOptions<Response> PostOperationWithBodyAndPathParameters(String url, Map<String, String> pathParams, Map<String, String> body) {
+        Request.pathParams(pathParams);
         Request.body(body);
-        try {
-            return Request.post(new URI(url));
-
-        } catch (URISyntaxException e) {
-            e.printStackTrace();
-        }
-
-        return null;
+        return Request.post(url);
     }
 }

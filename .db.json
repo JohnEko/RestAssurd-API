@@ -1,40 +1,39 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Kafka-Developer",
       "author": "James"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Python test engineer",
       "author": "Dom"
     },
-
     {
-      "id": 3,
+      "id": "3",
       "title": "Java developer",
       "author": "Ashini"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "cyber Security Analyts",
       "author": "Zen"
     },
     {
-      "id": 5,
-      "title": "Data Engineering",
-      "author": "Tony"
+      "id": "5",
+      "author": "David",
+      "title": "Server Admin"
     },
     {
-      "id": "6",
-      "title": "Server Admin",
-      "author": "David"
+      "id": "5",
+      "author": "David",
+      "title": "Server Admin"
     }
   ],
   "comments": [
     {
-      "id": 1,
+      "id": "1",
       "body": "Wonderful course content",
       "postID": 1
     }

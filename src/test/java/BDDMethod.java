@@ -36,7 +36,7 @@ public class BDDMethod {
                 .when()
                 .get("http://localhost:3000/posts/")
                 .then()
-                .body("author", containsInAnyOrder("James", "Ashini", "Dom", "Zen")).statusCode(200);
+                .body("author", containsInAnyOrder("James", "Dom", "Ashini", "Zen")).statusCode(200);
 
     }
 
@@ -58,10 +58,10 @@ public class BDDMethod {
                 .then()
                     .body("author", hasItem("Dom"));
     }
-//Post Operation
+//Post Operation to generates data to the API payload
     public  static void PostRequestOperation(){
         HashMap<String, String> postContent = new HashMap<>();
-        postContent.put("id", "6");
+        postContent.put("id", "5");
         postContent.put("title", "Server Admin");
         postContent.put("author", "David");
 
